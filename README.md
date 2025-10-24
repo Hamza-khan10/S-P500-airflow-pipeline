@@ -23,15 +23,9 @@
 
 ## ETL Process (Futuristic View)
 
-![ETL Process](./docs/etl-process.png)
+![ETL Process](./images/image.png)
 
-> *Data flows from yfinance → Airflow → S3 → Snowflake with real-time transformation*
-
----
-
-## System Architecture
-
-![Architecture Diagram](./docs/architecture-diagram.png)
+> *Data flows from yfinance → Airflow → S3 → Snowflake with real-time transformation
 
 > *Orchestrated by Airflow, staged in S3, landed in Snowflake with case-sensitive columns*
 
