@@ -23,7 +23,7 @@
 
 ## ETL Process (Futuristic View)
 
-![ETL Process](./images/image.jpeg)
+![ETL Process](./images/image.jpg)
 
 > *Data flows from yfinance → Airflow → S3 → Snowflake with real-time transformation
 
