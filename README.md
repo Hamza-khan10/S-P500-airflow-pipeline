@@ -1,7 +1,19 @@
 # S&P 500 Real-Time Data Pipeline
 
 **Automated daily ingestion of 500+ S&P 500 stocks into Snowflake using Airflow, yfinance, S3, and pandas.**
-
+sp500-pipeline/
+├── airflow/
+│   ├── dags/
+│   │   └── SP500.py
+│   └── docker-compose.yaml
+├── data/
+│   └── (empty - .gitkeep)
+├── sql/
+│   └── create_table.sql
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── LICENSE
 ---
 
 ## What It Does
